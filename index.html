@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fashion NK Ramos - Catálogo de roupas femininas">
+    <title>Fashion NK Ramos | Moda Feminina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#inicio" class="logo">
+                Fashion NK Ramos
+            </a>
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Abrir menu"
+            >
+            </button>
+            <nav class="nav" id="navMenu">
+
+                <a href="#inicio">Início</a>
+
+                <a href="#catalogo">Catálogo</a>
+
+                <a href="#servicos">Serviços</a>
+
+                <a href="#sobre">Sobre</a>
+
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <!-- ================= MAIN ================= -->
+    <main>
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle">
+                        MODA FEMININA
+                    </p>
+                    <h1>
+                        Peças feitas com
+                        <span>cuidado e estilo.</span>
+                    </h1>
+                    <p>
+                        Conheça o catálogo da Fashion NK Ramos
+                        e encontre peças prontas ou solicite
+                        uma criação personalizada.
+                    </p>
+                    <div class="hero-buttons">
+                        <a
+                            href="#catalogo"
+                            class="btn btn-primary"
+                        >
+                            Ver catálogo
+                        </a>
+                        <a
+                            href="#contato"
+                            class="btn btn-secondary"
+                        >
+                            Entre em contato
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        Sua foto aqui
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================= CATÁLOGO ================= -->
+        <section
+            class="section"
+            id="catalogo"
+        >
+            <div class="container">
+                <div class="section-title">
+                    <p>CONHEÇA NOSSAS PEÇAS</p>
+                    <h2>Catálogo</h2>
+                    <span>
+                        Navegue pelas categorias e
+                        conheça nossas peças.
+                    </span>
+                </div>
+                <!-- FILTROS -->
+                <div
+                    class="category-buttons"
+                    id="categoryButtons"
+                >
+                    <button
+                        class="category-btn active"
+                        data-category="todos"
+                    >
+                        Todos
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="vestidos"
+                    >
+                        Vestidos
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="blusas"
+                    >
+                        Blusas
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="calcas"
+                    >
+                        Calças
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="casacos"
+                    >
+                        Casacos
+                    </button>
+
+                    <button
+                        class="category-btn"
+                        data-category="moletons"
+                    >
+                        Moletons
+                    </button>
+
+                </div>
+                <!-- PRODUTOS -->
+                <div
+                    class="products-grid"
+                    id="productsGrid"
+                >
+                    <!-- Produto 1 -->
+
+                    <article
+                        class="product-card"
+                        data-category="vestidos"
+                    >
+
+                        <div class="product-image">
+                            Foto da peça
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Vestidos
+                            </span>
+
+                            <h3>
+                                Vestido Floral
+                            </h3>
+
+                            <p>
+                                Vestido feminino com
+                                estampa floral.
+                            </p>
+
+                            <span class="product-size">
+                                Tamanho: M
+                            </span>
+
+                            <a
+                                href="https://wa.me/5500000000000?text=Olá!%20Vi%20o%20Vestido%20Floral%20no%20site%20da%20Fashion%20NK%20Ramos."
+                                target="_blank"
+                                class="product-button"
+                            >
+                                Tenho interesse
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produto 2 -->
+
+                    <article
+                        class="product-card"
+                        data-category="blusas"
+                    >
+
+                        <div class="product-image">
+                            Foto da peça
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Blusas
+                            </span>
+
+                            <h3>
+                                Blusa Feminina
+                            </h3>
+
+                            <p>
+                                Blusa feminina confortável
+                                para diferentes ocasiões.
+                            </p>
+
+                            <span class="product-size">
+                                Tamanho: G
+                            </span>
+
+                            <a
+                                href="https://wa.me/5500000000000?text=Olá!%20Vi%20a%20Blusa%20Feminina%20no%20site%20da%20Fashion%20NK%20Ramos."
+                                target="_blank"
+                                class="product-button"
+                            >
+                                Tenho interesse
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produto 3 -->
+
+                    <article
+                        class="product-card"
+                        data-category="calcas"
+                    >
+
+                        <div class="product-image">
+                            Foto da peça
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Calças
+                            </span>
+
+                            <h3>
+                                Calça Feminina
+                            </h3>
+
+                            <p>
+                                Modelo feminino com
+                                acabamento personalizado.
+                            </p>
+
+                            <span class="product-size">
+                                Tamanho: 40
+                            </span>
+
+                            <a
+                                href="https://wa.me/5500000000000?text=Olá!%20Vi%20a%20Calça%20Feminina%20no%20site%20da%20Fashion%20NK%20Ramos."
+                                target="_blank"
+                                class="product-button"
+                            >
+                                Tenho interesse
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produto 4 -->
+
+                    <article
+                        class="product-card"
+                        data-category="casacos"
+                    >
+
+                        <div class="product-image">
+                            Foto da peça
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Casacos
+                            </span>
+
+                            <h3>
+                                Casaco Feminino
+                            </h3>
+
+                            <p>
+                                Casaco confeccionado
+                                com acabamento cuidadoso.
+                            </p>
+
+                            <span class="product-size">
+                                Tamanho: M
+                            </span>
+
+                            <a
+                                href="https://wa.me/5500000000000?text=Olá!%20Vi%20o%20Casaco%20Feminino%20no%20site%20da%20Fashion%20NK%20Ramos."
+                                target="_blank"
+                                class="product-button"
+                            >
+                                Tenho interesse
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produto 5 -->
+
+                    <article
+                        class="product-card"
+                        data-category="moletons"
+                    >
+
+                        <div class="product-image">
+                            Foto da peça
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Moletons
+                            </span>
+
+                            <h3>
+                                Moletom Feminino
+                            </h3>
+
+                            <p>
+                                Moletom confortável para
+                                dias mais frios.
+                            </p>
+
+                            <span class="product-size">
+                                Tamanho: G
+                            </span>
+
+                            <a
+                                href="https://wa.me/5500000000000?text=Olá!%20Vi%20o%20Moletom%20Feminino%20no%20site%20da%20Fashion%20NK%20Ramos."
+                                target="_blank"
+                                class="product-button"
+                            >
+                                Tenho interesse
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produto 6 -->
+
+                    <article
+                        class="product-card"
+                        data-category="vestidos"
+                    >
+
+                        <div class="product-image">
+                            Foto da peça
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Vestidos
+                            </span>
+
+                            <h3>
+                                Vestido Elegante
+                            </h3>
+
+                            <p>
+                                Modelo desenvolvido para
+                                ocasiões especiais.
+                            </p>
+
+                            <span class="product-size">
+                                Tamanho: P
+                            </span>
+
+                            <a
+                                href="https://wa.me/5500000000000?text=Olá!%20Vi%20o%20Vestido%20Elegante%20no%20site%20da%20Fashion%20NK%20Ramos."
+                                target="_blank"
+                                class="product-button"
+                            >
+                                Tenho interesse
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVIÇOS ================= -->
+
+        <section
+            class="section services-section"
+            id="servicos"
+        >
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>O QUE FAZEMOS</p>
+
+                    <h2>Nossos serviços</h2>
+
+                    <span>
+                        Soluções para diferentes necessidades
+                        de moda e costura.
+                    </span>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            ✂
+                        </div>
+
+                        <h3>
+                            Confecção
+                        </h3>
+
+                        <p>
+                            Produção de roupas femininas
+                            com cuidado em cada detalhe.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            ♡
+                        </div>
+
+                        <h3>
+                            Encomendas
+                        </h3>
+
+                        <p>
+                            Solicite uma peça personalizada
+                            de acordo com suas necessidades.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            ✦
+                        </div>
+
+                        <h3>
+                            Ajustes
+                        </h3>
+
+                        <p>
+                            Ajustes e modificações para
+                            melhorar o caimento da peça.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            ★
+                        </div>
+
+                        <h3>
+                            Revenda
+                        </h3>
+
+                        <p>
+                            Consulte opções para produção
+                            de peças destinadas à revenda.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SOBRE ================= -->
+
+        <section
+            class="section about-section"
+            id="sobre"
+        >
+
+            <div class="container about-content">
+
+                <div class="about-image">
+                    Foto da costureira
+                </div>
+
+                <div class="about-text">
+
+                    <p class="section-label">
+                        SOBRE A MARCA
+                    </p>
+
+                    <h2>
+                        Fashion NK Ramos
+                    </h2>
+
+                    <p>
+                        A Fashion NK Ramos nasceu do trabalho
+                        e da dedicação à costura e à criação
+                        de roupas femininas.
+                    </p>
+
+                    <p>
+                        Aqui você poderá conhecer algumas
+                        das peças já produzidas e entrar em
+                        contato para consultar disponibilidade
+                        ou solicitar uma criação personalizada.
+                    </p>
+
+                    <a
+                        href="#contato"
+                        class="btn btn-primary"
+                    >
+                        Falar conosco
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTATO ================= -->
+
+        <section
+            class="section contact-section"
+            id="contato"
+        >
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>FALE CONOSCO</p>
+
+                    <h2>Entre em contato</h2>
+
+                    <span>
+                        Gostou de alguma peça ou quer
+                        solicitar uma encomenda?
+                    </span>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <a
+                        href="https://wa.me/5511980845535"
+                        target="_blank"
+                        class="contact-card"
+                    >
+
+                        <div class="contact-icon">
+                            ☎
+                        </div>
+
+                        <h3>
+                            WhatsApp
+                        </h3>
+
+                        <p>
+                            Tire dúvidas e solicite
+                            informações sobre as peças.
+                        </p>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/fashion_nk_ramos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank"
+                        class="contact-card"
+                    >
+
+                        <div class="contact-icon">
+                            ◎
+                        </div>
+
+                        <h3>
+                            Instagram
+                        </h3>
+
+                        <p>
+                            Acompanhe novidades e
+                            outras peças disponíveis.
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Fashion NK Ramos.
+                Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+</html>
