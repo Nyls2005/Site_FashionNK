@@ -548,10 +548,10 @@ button {
         grid;
 
     grid-template-columns:
-        repeat(4, 1fr);
+        repeat(2, 1fr);
 
     gap:
-        20px;
+        60px;
 }
 
 .service-card {
